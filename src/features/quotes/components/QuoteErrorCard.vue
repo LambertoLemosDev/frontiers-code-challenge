@@ -23,14 +23,21 @@ defineOptions({
 <template>
   <GlassBaseCard>
     <div class="quote-error-card">
-      <div class="quote-error-card__icon" role="img" aria-label="Error" data-test="error-icon-think">
+      <div
+        class="quote-error-card__icon"
+        role="img"
+        aria-label="Error"
+        data-test="error-icon-think"
+      >
         🤔
       </div>
       <h2 class="font-quote quote-error-card__title">Well, this is awkward...</h2>
       <p class="font-ui quote-error-card__message">
         {{ message }}
       </p>
-      <button @click="retry" class="glass quote-error-card__button font-ui">Give it another shot</button>
+      <button @click="retry" class="glass quote-error-card__button font-ui">
+        Give it another shot
+      </button>
     </div>
   </GlassBaseCard>
 </template>

@@ -26,9 +26,9 @@ export default class QuoteHttpRepository implements QuoteBaseRepository<Quote> {
       if (
         !data ||
         typeof data !== 'object' ||
-        typeof (data as { _id: unknown})._id !== 'string' ||
-        typeof (data as { author: unknown}).author !== 'string' ||
-        typeof (data as { content: unknown}).content !== 'string'
+        typeof (data as { _id: unknown })._id !== 'string' ||
+        typeof (data as { author: unknown }).author !== 'string' ||
+        typeof (data as { content: unknown }).content !== 'string'
       ) {
         throw new Error('Unexpected response shape from Quotable')
       }
