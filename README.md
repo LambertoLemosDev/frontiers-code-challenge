@@ -26,10 +26,3 @@ This variable is used in the Vite proxy configuration to redirect API calls.
 
 - **Lint and fix code style issues:** `npm run lint`
 - **Format code with Prettier:** `npm run format`
-
-## Deployment
-
-The project is deployed and can be visited at:
-
-👉 https://frontiers-code-challenge.netlify.app/
-```
