@@ -10,7 +10,7 @@ export default class QuoteHttpRepository implements QuoteBaseRepository<Quote> {
 
   async getResource(): Promise<Quote> {
     try {
-      const response = await fetch(import.meta.env.VITE_QUOTES_RANDOM_ENDPOINT, {
+      const response = await fetch(import.meta.env.VITE_INTERNAL_QUOTES_ENDPOINT, {
         method: 'GET',
         headers: this.HEADERS,
         cache: 'no-store',

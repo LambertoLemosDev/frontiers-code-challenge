@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineOptions } from 'vue'
 
 const emit = defineEmits<{
   (e: 'onClick'): void

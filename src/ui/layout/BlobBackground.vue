@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import BlobShape from '@/ui/components/BlobShape.vue'
-import { defineOptions } from 'vue'
 
 defineOptions({
   name: 'BlobBackground',
