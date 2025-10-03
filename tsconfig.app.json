@@ -1,0 +1,18 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["vite/client", "vitest/globals"],
+    "lib": ["ES2022", "DOM"],
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
