@@ -24,7 +24,7 @@ defineOptions({ name: 'GlassBaseCard' })
 }
 
 @media (min-width: 1024px) {
-  .card {
+  .glass-base-card {
     padding: 3rem;
   }
 }

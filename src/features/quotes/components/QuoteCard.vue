@@ -69,10 +69,6 @@ const { quote } = defineProps<{
 }
 
 @media (min-width: 640px) {
-  .quote-card {
-    padding: 2.5rem;
-  }
-
   .quote-card__text {
     font-size: 1.8rem;
   }
